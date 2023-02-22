@@ -1,0 +1,37 @@
+.EightBall {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px 0;
+    
+}
+
+.EightBall-header {
+    font-size: 60px;
+    color: aqua;
+    text-shadow: 1px 1px 10px blue;
+}
+
+.EightBall-msg {
+    color: white;
+}
+
+.EightBall-restart {
+    margin-left: 30%;
+    background-color: rgb(214, 252, 252);
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.EightBall-restart:hover {
+   background-color: rgb(170, 235, 235);
+   box-shadow: 1px 1px 10px black;
+}
+
+.EightBall:hover {
+    box-shadow: 1px 1px 10px black;
+}
